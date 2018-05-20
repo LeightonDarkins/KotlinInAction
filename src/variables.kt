@@ -9,9 +9,12 @@ fun main(args: Array<String>) {
     var string:String = "a string"
     var anotherString = "another string"
 
-    //must include type declaration
+    // must include type declaration
     var double:Double
     double = 20.02
+    // cannot assign a different type
+    // double = 20.02f
+    // double = "double"
 
     // must include type declaration
     val float:Float
