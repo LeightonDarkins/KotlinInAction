@@ -20,6 +20,14 @@ fun main(args: Array<String>) {
     val float:Float
     float = 10.10f
 
+    // String Templates
+
+    // escape $
+    println("\$$double")
+
+    // even double quotes can nest as long as they're in an expression
+    println("${"test"}")
+
     println("one: ${one.javaClass.name}")
     println("two: ${two.javaClass.name}")
     println("string: ${string.javaClass.name}")
