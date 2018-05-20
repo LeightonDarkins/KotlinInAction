@@ -1,10 +1,12 @@
+package chapterTwo
+
 // JAVA
 
-//public class Person {
+//public class chapterTwo.Person {
 //    private final String name;
 //    private final Boolean isMarried;
 //
-//    public Person(String name, Boolean isMarried) {
+//    public chapterTwo.Person(String name, Boolean isMarried) {
 //        this.name = name;
 //        this.isMarried = isMarried
 //    }
@@ -20,7 +22,7 @@
 
 // KOTLIN
 
-// create a class called Person with an IMMUTABLE VALUE, name
+// create a class called chapterTwo.Person with an IMMUTABLE VALUE, name
 // and a VARIABLE: isMarried.
 
 class Person(val name:String, var isMarried:Boolean)
