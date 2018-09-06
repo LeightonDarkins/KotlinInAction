@@ -1,0 +1,17 @@
+access modifiers
+
+final
+    can't be overridden
+        default for class members
+
+open
+    can be overridden
+        should be specified explicitly
+
+abstract
+    must be overridden
+        can only be used in abstract classes; abstract members cannot have an implementation
+
+override
+    Overrides a member in an interface or super class
+        overridden members are open by default, unless marked "final"

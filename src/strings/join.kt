@@ -7,6 +7,8 @@ package strings
 
 // top level properties
 var opCount = 0
+// private static final equiv
+const val UNIX_LINE_SEPARATOR = "\n"
 
 // equiv to "public static final"
 const val CONSTANT_VALUE = '\n'
@@ -32,7 +34,11 @@ fun <T> joinToString(collection: Collection<T>, separator: String = ", ", prefix
 
 // extension functions
 
-fun String.lastChar(): Char = get(length -1)
+// extend String class with a lastChar method
+fun String.lastChar(): Char = this.get(this.length - 1)
+
+// "this" can be omitted in extension functions
+fun String.firstChar(): Char = get(0)
 
 // use in JAVA
 

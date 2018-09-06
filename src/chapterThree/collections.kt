@@ -31,10 +31,10 @@ fun main (args: Array<String>) {
 
     println("this is a test".last())
 
-    val someStringColelction = listOf("1", "2", "3")
+    val someStringCollection = listOf("1", "2", "3")
 
-    println(someStringColelction.joinToStringExtension())
-    println(someStringColelction.joinToStringExtension(separator = "; ", prefix = "[", postfix = "]"))
+    println(someStringCollection.joinToStringExtension())
+    println(someStringCollection.joinToStringExtension(separator = "; ", prefix = "[", postfix = "]"))
 
     val view = View()
     view.click()

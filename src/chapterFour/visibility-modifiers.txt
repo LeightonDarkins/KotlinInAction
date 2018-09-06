@@ -1,0 +1,11 @@
+public
+    Visible everywhere
+
+internal
+    Visible in a module
+
+protected
+    Visible in a subclass
+
+private
+    Visible in a class
