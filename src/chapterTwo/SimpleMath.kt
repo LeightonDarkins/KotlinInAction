@@ -1,7 +1,5 @@
 package chapterTwo
 
-import kotlin.math.exp
-
 interface Expression
 class Num(val value: Int) : Expression
 class Sum(val left: Expression, val right: Expression) : Expression
